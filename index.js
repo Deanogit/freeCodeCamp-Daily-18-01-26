@@ -35,6 +35,6 @@ function getsFreeShipping(cart, minimum) {
   }
 
   console.log(counter);
-  return counter > minimum;
+  return counter >= minimum;
   //return cart;
 }
